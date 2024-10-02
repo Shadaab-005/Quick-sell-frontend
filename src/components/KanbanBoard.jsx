@@ -140,6 +140,10 @@ const KanbanBoard = ({ tickets, users, grouping, sortOptions }) => {
                 {grouping === "user"
                   ? users.find((u) => u.id === group)?.name
                   : group}
+                {/* <div>{(groupedTickets[group] || []).length}</div> */}
+                <span className="group-count" style={{paddingLeft:"7px"}}>
+                   {(groupedTickets[group] || []).length}
+                </span>
               </div>
             </div>
             <div className="group-title-right">

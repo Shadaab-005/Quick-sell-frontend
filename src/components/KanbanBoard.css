@@ -1,34 +1,41 @@
-.kanban-board{
-    background-color: #f2f6f6;
-    height: 100vh;
+.kanban-board {
+  background-color: #f2f6f6;
+  height: 100vh;
 }
 
-.group-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 12px;
-    color: #676666;
-    padding: 0 0px;
-    margin-bottom: 5px;
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #676666;
+  padding: 0 0px;
+  margin-bottom: 5px;
 }
 
-.group-title{
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: black;
+.group-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
-.group-title-left{
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.group-title-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.group-title-right{
-    display: flex;
-    color: #ddd;
-    align-items: center;
-    gap: 5px;
+.group-title-right {
+  display: flex;
+  color: #ddd;
+  align-items: center;
+  gap: 5px;
+}
+
+.group-count {
+  font-weight: normal;
+  margin-left: 5px;
+  color: #676666;
 }
